@@ -45,6 +45,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "DeviceX", "~> 1.1.3"
+  spec.dependency "DeviceX"
 
 end
