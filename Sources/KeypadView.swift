@@ -57,7 +57,7 @@ public class KeyPadView: UIView {
     
     lazy var clear: UIButton = {
         let view = UIButton()
-        view.setImage(UIImage(podImageName: "icn_delete"), for: .normal)
+        view.setImage(UIImage.backImage(), for: .normal)
         view.tag = 0
         view.backgroundColor = themeColor ?? UIColor.accentLight
         view.alpha = 0.2

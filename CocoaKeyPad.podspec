@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "CocoaKeyPad"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "CocoaKeyPad is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
@@ -31,9 +31,9 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-  spec.resource_bundle  = {
-    "KeyboardAsset" => "Sources/**/*.{xcassets}"
-  }
+  # spec.resource_bundle  = {
+  #   "KeyboardAsset" => "Sources/**/*.{xcassets}"
+  # }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
